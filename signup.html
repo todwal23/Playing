@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Sign Up</title>
+</head>
+<body>
+    <header>
+        <h1><a href="index.html">Top Coders</a></h1>
+        <nav>
+            <ul>
+                <div class="nav-bar">
+                    <li>
+                        <a class="links" href="login.html">Log In</a>
+                    </li>
+                    <li>
+                        <a class="links" href="signup.html">Sign Up</a>
+                    </li>
+                </div>
+            </ul>
+        </nav>
+    </header>
+    <main>
+            <h1 class="register">Registration Form</h1>
+            <hr>
+            <h2 class="register">Provide your information</h2>
+            <br><br>
+              
+              <form>
+                      <label for="name">Name*</label><br>
+                      <input id="name" name="name" type="text" required><br>
+                      <label for="email">Email*</label><br>
+                      <input id="email" name="email" type="text" required><br>
+                      <label for="telephone">Telephone</label><br>
+                      <input 
+                             id="telephone" 
+                             type="text"
+                             size="3"
+                             maxlength="3"
+                             placeholder="555"
+                             >
+                      <input 
+                             id="telephone"
+                             type="text"
+                             size="3"
+                             maxlength="3"
+                             placeholder="555"
+                             >
+                      <input 
+                             id="telephone"
+                             type="text"
+                             size="4"
+                             maxlength="4"
+                             placeholder="5555"
+                             >
+                      <br><br>
+                      <label for="dob">DOB*</label><br>
+                      <input type="date" required><br><br>
+                      <label for="gender">Gender</label><br>
+                      <input 
+                             name="gender" 
+                             id="male" 
+                             type="radio"
+                             value="male">
+                      <label for="male">Male</label>
+                      
+                      <input 
+                             name="gender" 
+                             id="female" 
+                             type="radio"
+                             value="female">
+                      <label for="female">Female</label>
+                      <br><br>
+                      
+                      <label for="householdSize">Household size</label><br>
+                      <input 
+                             id="householdSize" 
+                             name="householdSize"
+                             type="text"
+                             size="5"
+                             required
+                             ><br><br>
+                      <label for="income">Annual Income</label><br>
+                      <select id="income" name="income" required>
+                          <option value="lessThan40">Less than $40k</option>
+                          <option value="lessThan40">$40k-$60k</option>
+                          <option value="lessThan40">$60k-$80k</option>
+                          <option value="lessThan40">$80k-$100k</option>
+                          <option value="lessThan40">$100k & above</option>
+                      </select>
+                      <br><br>
+                      
+                      <label for="message">Message</label><br>
+                      <textarea 
+                                name="message" 
+                                cols="40" 
+                                rows="10">Leave comments here...
+                      </textarea>
+                      <br><br>
+                      
+                      <label for="email">Password*</label><br>
+                      <input type="password" placeholder="Password"><br>
+                      <label for="email">Confirm Password*</label><br>
+                      <input type="password" placeholder="Confirm Password"><br><br>
+                      
+                      <input type="checkbox"
+                             name="terms"
+                             id="terms"
+                             value="terms">
+                      <label for="terms">By signing up, you agree to the</label>
+                      <a href="http://google.com">Terms Of Service</a>
+                      <br><br><br>
+                      
+                      <input type="submit">
+                      <br><br><br>
+                         
+                  </form>
+                  <hr>
+                  <br><br>
+                  <div class="pictures">
+                    <img class="pic" src="images/coding.png" alt="coding">
+                    <img class="pic2" src="images/arrows.png" alt="carrets">
+                </div>
+    </main>
+    <footer>
+        <div class="footer">
+            <address>
+                1234 West Palm Street
+                Anytown, USA 55555
+            </address>
+        </div>
+    </footer>
+</body>
+</html>

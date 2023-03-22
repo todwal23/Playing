@@ -2,8 +2,9 @@ body {
     margin: 0;
     background-color: rgb(236, 230, 230);
     background-image: url(images/code.png);
-    background-position: inherit;
+    background-position: center;
     background-size: cover;
+    background-blend-mode: lighten;
 }
 
 header {

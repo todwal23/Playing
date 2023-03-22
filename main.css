@@ -4,7 +4,7 @@ body {
     background-image: url(images/code.png);
     background-position: center;
     background-size: cover;
-    background-blend-mode: lighten;
+    background-blend-mode: color-burn;
 }
 
 header {
@@ -160,6 +160,7 @@ textarea {
 .select {
     width: 9rem;
     border-radius: 6px;
+    background-color: #fff;
 }
 
 .select:hover {

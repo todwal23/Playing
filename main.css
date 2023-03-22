@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    background-color: rgb(199, 199, 199);
+    background-color: rgb(236, 230, 230);
     background-image: url(images/code.png);
     background-position: inherit;
     background-size: cover;
@@ -149,6 +149,21 @@ textarea {
 
 .login {
     text-align: center;
+}
+
+.login:focus {
+    background-color: rgb(155, 152, 149);
+    color: #fff;
+}
+
+.select {
+    width: 9rem;
+    border-radius: 6px;
+}
+
+.select:hover {
+    background-color: black;
+    color: #fff;
 }
 
 label {
